@@ -5,20 +5,20 @@ export const data = {
     name: 'Jupiter',
     overview: {
         content:
-            'Jupiter is the fifth planet from the Sun and the largest in the Solar System. It is a gas giant with a mass two and a half times that of all the other planets in the Solar System combined, but less than one-thousandth the mass of the Sun.',
-        source: 'https://en.wikipedia.org/wiki/Jupiter',
+            'Júpiter es el planeta más grande del sistema solar y el quinto en orden de lejanía al Sol. Es un gigante gaseoso que forma parte de los denominados planetas exteriores. Se trata del planeta que ofrece un mayor brillo a lo largo del año dependiendo de su fase. ',
+        source: 'https://es.wikipedia.org/wiki/J%C3%BApiter_(planeta)',
         image: jupiterImage,
     },
     structure: {
         content:
-            "When the Juno arrived in 2016, it found that Jupiter has a very diffuse core that mixes into its mantle. A possible cause is an impact from a planet of about ten Earth masses a few million years after Jupiter's formation, which would have disrupted an originally solid Jovian core.",
-        source: 'https://en.wikipedia.org/wiki/Jupiter#Internal_structure',
+            "En el interior del planeta el hidrógeno, el helio y el argón (gas noble que se acumula en la superficie de Júpiter) se comprimen progresivamente. El hidrógeno molecular se comprime de tal manera que se transforma en un líquido de carácter metálico a profundidades de unos 15 000 km bajo la superficie. ",
+        source: 'https://es.wikipedia.org/wiki/J%C3%BApiter_(planeta)#Estructura_interna',
         image: jupiterInternalImage,
     },
     geology: {
         content:
-            'The best known feature of Jupiter is the Great Red Spot, a persistent anticyclonic storm located 22° south of the equator. It is known to have existed since at least 1831, and possibly since 1665.',
-        source: 'https://en.wikipedia.org/wiki/Jupiter#Great_Red_Spot_and_other_vortices',
+            'La atmósfera de Júpiter no presenta una frontera clara con el interior líquido del planeta; la transición se va produciendo de una manera gradual. Se compone en su mayoría de hidrógeno (87 %) y helio (13 %), además de contener metano, vapor de agua, amoníaco y sulfuro de hidrógeno, todas estas con < 0,1 % de la composición de la atmósfera total.',
+        source: 'https://es.wikipedia.org/wiki/J%C3%BApiter_(planeta)#Atm%C3%B3sfera',
         image: jupiterImage,
         geo: jupiterGeoImage,
     },

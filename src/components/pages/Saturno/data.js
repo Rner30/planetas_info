@@ -5,20 +5,20 @@ export const data = {
     name: 'Saturn',
     overview: {
         content:
-            'Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine and a half times that of Earth. It only has one-eighth the average density of Earth.',
-        source: 'https://en.wikipedia.org/wiki/Saturn',
+            'Saturno es el sexto planeta del sistema solar contando desde el Sol, el segundo en tamaño y masa después de Júpiter y el único con un sistema de anillos visible desde la Tierra. El aspecto más característico de Saturno son sus brillantes anillos. ',
+        source: 'https://es.wikipedia.org/wiki/Saturno_(planeta)',
         image: saturnImage,
     },
     structure: {
         content:
-            "Despite consisting mostly of hydrogen and helium, most of Saturn's mass is not in the gas phase, because hydrogen becomes a non-ideal liquid when the density is above 0.01 g/cm3, which is reached at a radius containing 99.9% of Saturn's mass.",
+            "Los modelos planetarios típicos consideran que el interior del planeta es semejante al de Júpiter, con un núcleo rocoso rodeado por hidrógeno, helio y trazas de otras sustancias volátiles. Sobre él se extiende una extensa capa de hidrógeno líquido, debido a los efectos de las elevadas presiones y temperaturas.",
         source: 'https://en.wikipedia.org/wiki/Saturn#Internal_structure',
         image: saturnInternalImage,
     },
     geology: {
         content:
-            "The outer atmosphere of Saturn contains 96.3% molecular hydrogen and 3.25% helium by volume. The planet's most famous feature is its prominent ring system, which is composed mostly of ice particles with a smaller amount of rocky debris and dust.",
-        source: 'https://en.wikipedia.org/wiki/Saturn#Atmosphere',
+            "La atmósfera de Saturno posee un patrón de bandas oscuras y zonas claras similar al de Júpiter aunque la distinción entre ambas es mucho menos clara en el caso de Saturno.",
+        source: 'https://es.wikipedia.org/wiki/Saturno_(planeta)#Atm%C3%B3sfera',
         image: saturnImage,
         geo: saturnGeoImage,
     },

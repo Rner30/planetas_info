@@ -13,6 +13,7 @@ function App() {
     <BrowserRouter>
       <Navbar/>
       <Switch>
+        
         <Route path="/mercurio" >
           <Mercurio/>
         </Route>

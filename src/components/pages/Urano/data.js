@@ -5,20 +5,20 @@ export const data = {
     name: 'Uranus',
     overview: {
         content:
-            'Uranus is the seventh planet from the Sun. Its name is a reference to the Greek god of the sky, Uranus according to Greek mythology, was the great-grandfather of Ares. It has the third-largest planetary radius and fourth-largest planetary mass in the Solar System.',
+            'Urano es el séptimo planeta del sistema solar, el tercero de mayor tamaño, y el cuarto más masivo. Aunque es detectable a simple vista en el cielo nocturno, no fue catalogado como planeta por los astrónomos de la antigüedad debido a su escasa luminosidad y a la lentitud de su órbita.',
         source: 'https://en.wikipedia.org/wiki/Uranus',
         image: uranusImage,
     },
     structure: {
         content:
-            "The standard model of Uranus's structure is that it consists of three layers: a rocky (silicate/iron–nickel) core in the centre, an icy mantle in the middle and an outer gaseous hydrogen/helium envelope. The core is relatively small, with a mass of only 0.55 Earth masses.",
-        source: 'https://en.wikipedia.org/wiki/Uranus#Internal_structure',
+            "La masa de Urano es 14,5 veces la de la Tierra haciéndolo el menos masivo de los planetas gigantes, mientras que su densidad, 1,27 g/cm³. Aunque tiene un diámetro ligeramente mayor que el de Neptuno (unas cuatro veces el de la Tierra), tiene menos masa. Estos valores indican que está compuesto principalmente de diversos tipos de «hielos», como agua, amoníaco y metano.",
+        source: 'https://es.wikipedia.org/wiki/Urano_(planeta)#Composici%C3%B3n_y_estructura_interna',
         image: uranusInternalImage,
     },
     geology: {
         content:
-            "The composition of Uranus's atmosphere is different from its bulk, consisting mainly of molecular hydrogen and helium. The helium molar fraction, i.e. the number of helium atoms per molecule of gas, is 0.15±0.03 in the upper troposphere.",
-        source: 'https://en.wikipedia.org/wiki/Uranus#Atmosphere',
+            "Aunque no hay una superficie sólida bien definida en el interior de Urano, la parte más exterior de la envoltura gaseosa de Urano que es accesible por sensores remotos se llama atmósfera.",
+        source: 'https://es.wikipedia.org/wiki/Urano_(planeta)#Atm%C3%B3sfera',
         image: uranusImage,
         geo: uranusGeoImage,
     },

@@ -5,20 +5,20 @@ export const data = {
     name: 'Mars',
     overview: {
         content:
-            'Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the "Red Planet".',
-        source: 'https://en.wikipedia.org/wiki/Mars',
+            'Marte es el cuarto planeta en orden de distancia al Sol y el segundo más pequeño del sistema solar, después de Mercurio. El periodo de rotación y los ciclos estacionales son similares a los de la Tierra, ya que la inclinación es lo que genera las estaciones.',
+        source: 'https://es.wikipedia.org/wiki/Marte_(planeta)',
         image: marsImage,
     },
     structure: {
         content:
-            'Like Earth, Mars has differentiated into a dense metallic core overlaid by less dense materials. Scientists initially determined that the core is at least partially liquid. Current models of its interior imply a core consisting primarily of iron and nickel with about 16–17% sulfur.',
+            'Al igual que la Tierra, Marte tiene diferenciados un denso núcleo metálico recubierto por materiales menos densos. Los modelos actuales sugieren un núcleo con un radio de aproximadamente 1,794 ± 65 kilómetros (1,115 ± 40 mi), consistente principalmente en níquel y hierro con aproximadamente un 16-17 % de azufre.',
         source: 'https://en.wikipedia.org/wiki/Mars#Internal_structure',
         image: marsInternalImage,
     },
     geology: {
         content:
-            'Mars is a terrestrial planet whose surface consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The surface is primarily composed of tholeiitic basalt, although parts are more silica-rich than typical basalt.',
-        source: 'https://en.wikipedia.org/wiki/Mars#Surface_geology',
+            'Marte es un planeta rocoso compuesto por minerales que contienen silicio, oxígeno, metales y otros elementos que normalmente componen las rocas. La superficie de Marte está compuesta principalmente por basalto toleítico con un alto contenido en óxidos de hierro que proporcionan el característico color rojo de su superficie.',
+        source: 'https://es.wikipedia.org/wiki/Marte_(planeta)#Geolog%C3%ADa',
         image: marsImage,
         geo: marsGeoImage,
     },

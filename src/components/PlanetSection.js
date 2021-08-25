@@ -21,8 +21,8 @@ const ImageGeology = styled.img`
 	display: block;
 	position: absolute;
 	width: 8rem;
-	margin-top: 10rem;
-	margin-left: 5rem;
+	margin-top: 20%;
+	margin-left: 15%;
 `;
 const DivGrades = styled.div`
 	margin-top: 5%;

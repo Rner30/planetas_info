@@ -2,23 +2,23 @@ import neptuneImage from '../../../assets/images/planet-neptune.svg'
 import neptuneInternalImage from '../../../assets/images/planet-neptune-internal.svg'
 import neptuneGeoImage from '../../../assets/images/planet-neptune-geology.png'
 export const data = {
-    name: 'Neptune',
+    name: 'Neptuno',
     overview: {
         content:
-            'Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, more massive than its near-twin Uranus.',
+            'Neptuno es el octavo planeta en distancia respecto al Sol y el más lejano del sistema solar. Forma parte de los denominados planetas exteriores, y dentro de estos, es uno de los gigantes helados, y es el primero que fue descubierto gracias a predicciones matemáticas.',
         source: 'https://en.wikipedia.org/wiki/Neptune',
         image: neptuneImage,
     },
     structure: {
         content:
-            "Neptune's internal structure resembles that of Uranus. Its atmosphere forms about 5% to 10% of its mass and extends perhaps 10% to 20% of the way towards the core. Increasing concentrations of methane, ammonia and water are found in the lower regions.",
-        source: 'https://en.wikipedia.org/wiki/Neptune#Internal_structure',
+            "La estructura interna de Neptuno se parece a la de Urano: un núcleo rocoso cubierto por una costra helada, oculto bajo una atmósfera gruesa y espesa. Los dos tercios interiores de Neptuno se componen de una mezcla de roca fundida, agua, amoníaco líquido y metano. El tercio exterior es una mezcla de gas caliente compuesto de hidrógeno, helio, agua y metano.",
+        source: 'https://es.wikipedia.org/wiki/Neptuno_(planeta)#Composici%C3%B3n_y_estructura_interna',
         image: neptuneInternalImage,
     },
     geology: {
         content:
-            "Neptune's atmosphere is 80% hydrogen and 19% helium. A trace amount of methane is also present. Prominent absorption bands of methane exist at wavelengths above 600 nm, in the red and infrared portion of the spectrum.",
-        source: 'https://en.wikipedia.org/wiki/Neptune#Atmosphere',
+            "Al orbitar tan lejos del Sol, Neptuno recibe muy poco calor. Su temperatura en la superficie es de -218 °C (55 K). Sin embargo, el planeta parece tener una fuente interna de calor. Se piensa que puede ser un remanente del calor producido por la concreción de materia durante la creación del mismo, que ahora irradia calor lentamente hacia el espacio. ",
+        source: 'https://es.wikipedia.org/wiki/Neptuno_(planeta)#Composici%C3%B3n_y_estructura_interna',
         image: neptuneImage,
         geo: neptuneGeoImage,
     },
