@@ -2,7 +2,7 @@ import uranusImage from '../../../assets/images/planet-uranus.svg'
 import uranusInternalImage from '../../../assets/images/planet-uranus-internal.svg'
 import uranusGeoImage from '../../../assets/images/planet-uranus-geology.png'
 export const data = {
-    name: 'Uranus',
+    name: 'Urano',
     overview: {
         content:
             'Urano es el séptimo planeta del sistema solar, el tercero de mayor tamaño, y el cuarto más masivo. Aunque es detectable a simple vista en el cielo nocturno, no fue catalogado como planeta por los astrónomos de la antigüedad debido a su escasa luminosidad y a la lentitud de su órbita.',

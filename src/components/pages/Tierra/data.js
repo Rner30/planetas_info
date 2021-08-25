@@ -2,7 +2,7 @@ import earthImage from '../../../assets/images/planet-earth.svg'
 import earthInternalImage from '../../../assets/images/planet-earth-internal.svg'
 import earthGeoImage from '../../../assets/images/planet-earth-geology.png'
 export const data = {
-    name: 'Earth',
+    name: 'Tierra',
     overview: {
         content:
             "La superficie terrestre o corteza está dividida en varias placas tectónicas que se deslizan sobre el magma durante periodos de varios millones de años. La superficie está cubierta por continentes e islas; estos poseen varios lagos, ríos y otras fuentes de agua, que junto con los océanos de agua salada que representan cerca del 71 % de la superficie constituyen la hidrósfera.",

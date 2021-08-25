@@ -2,7 +2,7 @@ import marsImage from '../../../assets/images/planet-mars.svg'
 import marsInternalImage from '../../../assets/images/planet-mars-internal.svg'
 import marsGeoImage from '../../../assets/images/planet-mars-geology.png'
 export const data = {
-    name: 'Mars',
+    name: 'Marte',
     overview: {
         content:
             'Marte es el cuarto planeta en orden de distancia al Sol y el segundo más pequeño del sistema solar, después de Mercurio. El periodo de rotación y los ciclos estacionales son similares a los de la Tierra, ya que la inclinación es lo que genera las estaciones.',

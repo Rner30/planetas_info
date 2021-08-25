@@ -2,7 +2,7 @@ import saturnImage from '../../../assets/images/planet-saturn.svg'
 import saturnInternalImage from '../../../assets/images/planet-saturn-internal.svg'
 import saturnGeoImage from '../../../assets/images/planet-saturn-geology.png'
 export const data = {
-    name: 'Saturn',
+    name: 'Saturno',
     overview: {
         content:
             'Saturno es el sexto planeta del sistema solar contando desde el Sol, el segundo en tamaño y masa después de Júpiter y el único con un sistema de anillos visible desde la Tierra. El aspecto más característico de Saturno son sus brillantes anillos. ',
