@@ -13,7 +13,9 @@ function App() {
     <BrowserRouter>
       <Navbar/>
       <Switch>
-        
+        <Route path="/" exact>
+          <Tierra/>
+        </Route>
         <Route path="/mercurio" >
           <Mercurio/>
         </Route>
