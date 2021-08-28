@@ -1,54 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-
 import "./Navbar.scss";
-import Mercurio from "../../assets/images/planet-mercury.svg";
 import { Container, Navbar as NavbarBootstrap } from "react-bootstrap";
-const Navbar = () => {
-	const planetsImg = [Mercurio];
-	const planetas = [
-		"mercurio",
-		"venus",
-		"tierra",
-		"marte",
-		"jupiter",
-		"saturno",
-		"urano",
-		"neptuno",
-	];
+import { planetsInfo } from "./planets";
 
+const Navbar = () => {
 	return (
 		<NavbarBootstrap bg="transparent" expand="lg" variant="dark">
 			<Container>
 				<NavLink to="/" className="nav_link">
 					<h3>Planetas</h3>
 				</NavLink>
+				<NavbarBootstrap.Toggle aria-controls="basic-navbar-nav" />
 
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarNav"
-					aria-controls="navbarNav"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarNav">
+				<NavbarBootstrap.Collapse id="basic-navbar-nav">
 					<ul class="navbar-nav ms-auto mt-4">
-						{planetas.map((e) => (
+						{planetsInfo.map((e) => (
 							<NavLink
-								key={e}
-								to={`/${e}`}
+								key={e.name}
+								to={`/${e.name}`}
 								className="nav_link nav-item h5 nav-link"
 							>
-								<p>{e.charAt(0).toUpperCase() + e.slice(1)}</p>
+								<div>
+									<img src={e.img} className="planets-image" alt={e.name}/>
+									<p>{e.name.charAt(0).toUpperCase() + e.name.slice(1)}</p>
+								</div>
 							</NavLink>
 						))}
 					</ul>
-				</div>
+				</NavbarBootstrap.Collapse>
 			</Container>
 		</NavbarBootstrap>
 	);
