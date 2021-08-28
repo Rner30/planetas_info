@@ -1,18 +1,22 @@
 import React, { useState } from "react";
 import "./PlanetSection.scss";
 import styled from "styled-components";
-import { Button, ButtonGroup } from "react-bootstrap";
+import { Button,Row,Col, Container } from "react-bootstrap";
 
-const Div = styled.div`
+
+const DivRow = styled(Row)`
 	margin-top: 4%;
 	align-items: center;
 	font-size: 1.4rem;
 	@media (min-width: 992px) {
 		margin-left: 10%;
 	}
-`;
+`
+const RowGrades = styled(Row)`
+	margin-top: 5%;
+`
 
-const Divinfo = styled.div`
+const Divinfo = styled(Row)`
 	width: 13rem;
 `;
 const ImageGeology = styled.img`
@@ -23,25 +27,23 @@ const ImageGeology = styled.img`
 	margin-top: 20%;
 	margin-left: 15%;
 `;
-const DivGrades = styled.div`
-	margin-top: 5%;
-`;
+
 
 const PlanetSection = ({ data }) => {
 	const [datos, setDatos] = useState(data.overview);
 
 	return (
-		<div className="container">
-			<Div className="row">
-				<div className="col-lg-6">
+		<Container>
+			<DivRow>
+				<Col lg={6}>
 					{datos.geo && <ImageGeology src={datos.geo} alt="" />}
 					<img
 						src={datos.image}
 						alt=""
 						style={{ width: data.desktopImgWidth }}
 					/>
-				</div>
-				<div className="col-lg-6 " role="group">
+				</Col>
+				<Col lg={6}>
 					<h1>{data.name}</h1>
 					<p className="mt-4">{datos.content}</p>
 					<a href={datos.source} className="link-info text-decoration-none">
@@ -71,27 +73,28 @@ const PlanetSection = ({ data }) => {
 							03 - Geologia
 						</Button>
 					</div>
-				</div>
-			</Div>
-			<DivGrades className="row d-flex justify-content-center">
-				<Divinfo className="col-lg-1 border border-secondary border-2 text-center p-3">
+				</Col>
+			</DivRow>
+			
+			<RowGrades className="d-grid d-flex justify-content-center">
+				<Divinfo lg={1} className=" border border-secondary border-2 text-center p-3">
 					<p className="text-muted">ROTACIÓN</p>
 					<h4>{data.rotation}</h4>
 				</Divinfo>
-				<Divinfo className="col-lg-1 border border-secondary border-2 grados  text-center p-3">
+				<Divinfo lg={1} className=" border border-secondary border-2 grados  text-center p-3">
 					<p className="text-muted">TRASLACION</p>
 					<h4>{data.revolution}</h4>
 				</Divinfo>
-				<Divinfo className="col-lg-1 border border-secondary  border-2  grados text-center p-3">
+				<Divinfo lg={1} className=" border border-secondary  border-2  grados text-center p-3">
 					<p className="text-muted">RADIO</p>
 					<h4>{data.radius}</h4>
 				</Divinfo>
-				<Divinfo className="col-lg-1 border border-secondary  border-2  grados text-center p-3">
+				<Divinfo lg={1} className=" border border-secondary  border-2  grados text-center p-3">
 					<p className="text-muted">TEMP. MEDIA</p>
 					<h4>{data.temperature}</h4>
 				</Divinfo>
-			</DivGrades>
-		</div>
+			</RowGrades>
+		</Container>
 	);
 };
 

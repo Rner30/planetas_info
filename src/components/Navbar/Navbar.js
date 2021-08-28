@@ -1,13 +1,25 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import './Navbar.scss'
 
-
-
+import "./Navbar.scss";
+import Mercurio from "../../assets/images/planet-mercury.svg";
+import { Container, Navbar as NavbarBootstrap } from "react-bootstrap";
 const Navbar = () => {
+	const planetsImg = [Mercurio];
+	const planetas = [
+		"mercurio",
+		"venus",
+		"tierra",
+		"marte",
+		"jupiter",
+		"saturno",
+		"urano",
+		"neptuno",
+	];
+
 	return (
-		<nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-			<div class="container">
+		<NavbarBootstrap bg="transparent" expand="lg" variant="dark">
+			<Container>
 				<NavLink to="/" className="nav_link">
 					<h3>Planetas</h3>
 				</NavLink>
@@ -23,36 +35,22 @@ const Navbar = () => {
 				>
 					<span class="navbar-toggler-icon"></span>
 				</button>
+
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav ms-auto mt-4">
-                        <NavLink to="/mercurio" className="nav_link nav-item h5 nav-link" >
-					        <p>Mercurio</p>
-				        </NavLink>
-						<NavLink to="/venus" className="nav_link nav-item h5 nav-link">
-					        <p>Venus</p>
-				        </NavLink>
-						<NavLink to="/tierra" className="nav_link nav-item h5 nav-link">
-					        <p>Tierra</p>
-				        </NavLink>
-                        <NavLink to="/marte" className="nav_link nav-item h5 nav-link">
-					        <p>Marte</p>
-				        </NavLink>
-                        <NavLink to="/jupiter" className="nav_link nav-item h5 nav-link">
-					        <p>Jupiter</p>
-				        </NavLink>
-                        <NavLink to="/saturno" className="nav_link nav-item h5 nav-link">
-					        <p>Saturno</p>
-				        </NavLink>
-                        <NavLink to="/urano" className="nav_link nav-item h5 nav-link">
-					        <p>Urano</p>
-				        </NavLink>
-                        <NavLink to="/neptuno" className="nav_link nav-item h5 nav-link">
-					        <p>Neptuno</p>
-				        </NavLink>
+						{planetas.map((e) => (
+							<NavLink
+								key={e}
+								to={`/${e}`}
+								className="nav_link nav-item h5 nav-link"
+							>
+								<p>{e.charAt(0).toUpperCase() + e.slice(1)}</p>
+							</NavLink>
+						))}
 					</ul>
 				</div>
-			</div>
-		</nav>
+			</Container>
+		</NavbarBootstrap>
 	);
 };
 
